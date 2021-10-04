@@ -1,0 +1,410 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOXICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Christopher Portfolio</title>
+    <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico"/>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <!-- NAV STICKY TOP AND BOTTOM FOR MOBILE -->
+      <nav class="nav container">
+        <a href="#" class="nav__logo"><i class='bx bxs-chevron-left'></i></i>Christopher <span class="slash">/</span><i class='bx bxs-chevron-right'></i></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link home active-link-home">
+                <i class="bx bx-home-alt nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link about">
+                <i class="bx bx-user nav__icon"></i>
+                <span class="nav__name">About</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link projects">
+                <i class="bx bx-briefcase nav__icon"></i>
+                <span class="nav__name">Projects</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#photography" class="nav__link photography">
+                <i class="bx bx-camera nav__icon"></i>
+                <span class="nav__name">Photography</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link contact">
+                <i class="bx bx-message-square-detail nav__icon"></i>
+                <span class="nav__name">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <img src="assets/img/avatar.png" alt="" class="nav__img" />
+      </nav>
+    </header>
+    <!-- BACKGROUND -->
+    <div id="bg"></div>
+    <!-- SPINNER -->
+    <div class="spinner-wrapper">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- CONTENT -->
+    <main>
+      <!-- HOME -->
+      <section class="container section section__height" id="home">
+        <!-- <h2 class="section__title"></h2> -->
+        <!-- Home DIV -->
+        <div class="home__container">
+          <!-- TEXT -->
+          <div class="home__text">
+            <h1 class="home__title">
+              Hello my name is <span id="christopher">Christopher</span>
+            </h1>
+          </div>
+          <div class="home__animate">
+            <h2 class="home__subtitle">I'm a</h2>
+            <ul class="home__dynamic">
+              <li><span>Junior Developer</span></li>
+              <li><span>Rugby Player</span></li>
+              <li><span>Gamer</span></li>
+              <li><span>Rookie Photographer</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- IMAGE -->
+        <div class="home__image">
+          <img src="assets/img/avatar.png" alt="" />
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section class="container section section__height" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subAbout">Who am I?</span>
+        <div class="about_me">
+          <p class="about_text">
+            Hello, my name is <span class="aboutred">Christopher Acuña</span>, nice to meet you!
+            </br>
+            </br>
+            I'm from <span class="aboutred">Chile</span> and I just graduated from <span class="aboutred">computer engineering</span>. 
+            I'm currently focused on acquiring knowledge and looking for jobs in this development world to demonstrate my skills and gain experience. 
+            </br>
+            </br>
+            I'm passionate about the <span class="aboutred">Front-End development</span> as well as order and quality.
+          </p>
+        </div>
+        <a href="assets/cv/CV - Christopher Acuña.pdf" target="_blank" class="download_button">Download CV</a>
+      </section>
+      <!-- SKILLS -->
+      <section class="container section section__height">
+        <h2 class="section__title">Technical Skills</h2>
+        <!-- <span class="section__subtitle">My Technical Level</span> -->
+        <div class="skills__container container grid">
+          <div>
+            <!-- Skills 1 -->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="bx bx-code-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">FrontEnd Developer</h1>
+                  <!-- <span class="skills__subtitle">Less than 1 year</span> -->
+                </div>
+
+                <i class="bx bx-chevron-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <i class="bx bxl-html5 icons_skills"></i>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <i class="bx bxl-css3 icons_skills"></i>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <i class="bx bxl-javascript icons_skills"></i>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Vue</h3>
+                    <i class="bx bxl-vuejs icons_skills"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skills 2 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="bx bx-server skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">BackEnd Developer</h1>
+                  <!-- <span class="skills__subtitle">Less than 1 year</span> -->
+                </div>
+
+                <i class="bx bx-chevron-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PHP</h3>
+                    <i class='bx bxl-php icons_skills'></i>
+                  </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Laravel</h3>
+                      <i class="fab fa-laravel icons_skills"></i>
+                    </div>
+                  </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <i class="fab fa-java icons_skills"></i>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <i class="fas fa-database icons_skills"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skills 3 -->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                  <i class="bx bxs-terminal skills__icon"></i>
+                  <div>
+                    <h1 class="skills__title">Technologies</h1>
+                  </div>
+  
+                  <i class="bx bx-chevron-down skills__arrow"></i>
+                </div>
+                <div class="skills__list grid">
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Git</h3>
+                      <i class='bx bxl-git icons_skills'></i>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">NPM</h3>
+                      <i class="fab fa-npm icons_skills"></i>
+                    </div>
+                  </div>
+                  <!-- <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name"></h3>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name"></h3>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+          </div>
+          <div>
+            <!-- Skills 4 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="bx bx-book-bookmark skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">New Skills</h1>
+                  <span class="skills__subtitle">Currently learning</span>
+                </div>
+
+                <i class="bx bx-chevron-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">WordPress</h3>
+                    <i class='bx bxl-wordpress icons_skills' ></i>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <i class='bx bxl-react icons_skills' ></i>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Node</h3>
+                    <i class='bx bxl-nodejs icons_skills' ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PROJECTS -->
+      <section class="container section section__height" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="project__subtitle"><i>See some of my work</i></span>
+        <!-- CARD CONTAINER -->
+        <div class="project__card">
+          <!-- CARD 1 -->
+          <div class="card">
+            <div class="card__img">
+              <img src="assets/img/portfolioimg.png" alt="">
+            </div>
+            <div class="info__description">
+              <p>
+              Its my personal <span style="font-weight: bold;">Portfolio</span><br>
+              <span style="font-weight: bold;">Technologies used:</span> CSS, HTML5, Javascript.</p>
+                <a href="" class="card__button"><i class='bx bxl-github'></i>Code</a>
+                <a href="" class="card__button"><i class='bx bxs-camera-movie'></i>Live</a>
+            </div>
+          </div>
+           <!-- CARD 2 -->
+          <div class="card">
+            <div class="card__img">
+              <img src="assets/img/comingsoon.jpg" alt="">
+            </div>
+            <div class="info__description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem debitis obcaecati quia, totam distinctio asperiores
+                sit et vitae esse iste laboriosam ad dolore temporibus impedit optio culpa veniam odio sapiente autem, aliquam in
+                quam soluta suscipit possimus! Fugit quae accusamus quasi, sed, illum cumque numquam tempora sapiente aliquam
+                inventore rerum.</p>
+                <a href="" class="card__button"><i class='bx bxl-github'></i>Code</a>
+                <a href="" class="card__button"><i class='bx bxs-camera-movie'></i>Live</a>
+            </div>
+          </div>
+           <!-- CARD 3 -->
+          <div class="card">
+            <div class="card__img">
+              <img src="assets/img/comingsoon.jpg" alt="">
+            </div>
+            <div class="info__description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem debitis obcaecati quia, totam distinctio asperiores
+                sit et vitae esse iste laboriosam ad dolore temporibus impedit optio culpa veniam odio sapiente autem, aliquam in
+                quam soluta suscipit possimus! Fugit quae accusamus quasi, sed, illum cumque numquam tempora sapiente aliquam
+                inventore rerum.</p>
+                <a href="" class="card__button"><i class='bx bxl-github'></i>Code</a>
+                <a href="" class="card__button"><i class='bx bxs-camera-movie'></i>Live</a>
+            </div>
+          </div>
+           <!-- CARD 4 -->
+           <div class="card">
+            <div class="card__img">
+              <img src="assets/img/comingsoon.jpg" alt="">
+            </div>
+            <div class="info__description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem debitis obcaecati quia, totam distinctio asperiores
+                sit et vitae esse iste laboriosam ad dolore temporibus impedit optio culpa veniam odio sapiente autem, aliquam in
+                quam soluta suscipit possimus! Fugit quae accusamus quasi, sed, illum cumque numquam tempora sapiente aliquam
+                inventore rerum.</p>
+                <a href="" class="card__button"><i class='bx bxl-github'></i>Code</a>
+                <a href="" class="card__button"><i class='bx bxs-camera-movie'></i>Live</a>
+            </div>
+          </div>
+           <!-- CARD 5 -->
+           <div class="card">
+            <div class="card__img">
+              <img src="assets/img/comingsoon.jpg" alt="">
+            </div>
+            <div class="info__description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem debitis obcaecati quia, totam distinctio asperiores
+                sit et vitae esse iste laboriosam ad dolore temporibus impedit optio culpa veniam odio sapiente autem, aliquam in
+                quam soluta suscipit possimus! Fugit quae accusamus quasi, sed, illum cumque numquam tempora sapiente aliquam
+                inventore rerum.</p>
+                <a href="" class="card__button"><i class='bx bxl-github'></i>Code</a>
+                <a href="" class="card__button"><i class='bx bxs-camera-movie'></i>Live</a>
+            </div>
+          </div>
+           <!-- CARD 6 -->
+           <div class="card">
+            <div class="card__img">
+              <img src="assets/img/comingsoon.jpg" alt="">
+            </div>
+            <div class="info__description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem debitis obcaecati quia, totam distinctio asperiores
+                sit et vitae esse iste laboriosam ad dolore temporibus impedit optio culpa veniam odio sapiente autem, aliquam in
+                quam soluta suscipit possimus! Fugit quae accusamus quasi, sed, illum cumque numquam tempora sapiente aliquam
+                inventore rerum.</p>
+                <a href="" class="card__button"><i class='bx bxl-github'></i>Code</a>
+                <a href="" class="card__button"><i class='bx bxs-camera-movie'></i>Live</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PHOTOGRAPHY -->
+      <section class="container section section__height" id="photography">
+        <h2 class="section__title">Photography</h2>
+        <span class="photography__subtitle"><i>One of my hobbies is photography...</i></span>
+        <!-- ALBUM CONTAINER -->
+        <div class="album__container">
+          <figure>
+            <img src="assets/img/slider/slider 5.jpg" alt="">
+            <img src="assets/img/slider/slider 2.jpg" alt="">
+            <img src="assets/img/slider/slider 3.jpg" alt="">
+            <img src="assets/img/slider/slider 6.jpg" alt="">
+            <img src="assets/img/slider/slider 5.jpg" alt="">
+          </figure>
+        </div>
+        <span class="photography__footer">If you want to see more photos</span>
+        <br>
+        <br>
+        <span class="photography__flickr"><a href="https://www.flickr.com/people/192251975@N02/" target="_blank" class="photography__icon"> Follow me in <i
+              class='bx bxl-flickr-square'></i></a></span>
+      </section>
+      <!-- CONTACT -->
+      <section class="container section section__height" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <div class="contact__container">
+          <div class="contact__email">
+            <p>I'm interested to get a <span class="aboutred">job or freelance opportunities</span>, especially small or medium projects.
+            <br>
+            However, if you have other question or request, feel free to <span class="aboutred">send me an email!</span></p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=christopher.acuna96@gmail.com" target="_blank" class="contactemail"><span>EMAIL <i class="fas fa-envelope-open-text"></i></span></a>
+          </div>
+          <div class="contact__social">
+            <h2 class="social__links">Social Links</h2>
+            <a href="https://github.com/Chriz96" target="_blank"><i class="fab fa-github-square iconMedia"></i></a>
+            <a href="https://www.linkedin.com/in/christopher-acuña-b3953914a/" target="_blank"><i class="fab fa-linkedin iconMedia"></i></a>
+            <br>
+            <a href="https://www.flickr.com/people/192251975@N02/" target="_blank"><i class="fab fa-flickr iconMedia"></i></a>
+            <a href="https://twitter.com/LordChriz96" target="_blank"><i class="fab fa-twitter-square iconMedia"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- <span class="footer">Designed & Built by Christopher Acuña</span> -->
+      <footer class=footer>Designed & Built by Christopher Acuña</footer>
+    </main>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/particles.min.js"></script>
+    <script type="text/javascript" src="assets/js/background.js"></script>
+    <script src="https://kit.fontawesome.com/fb785931ab.js"></script>
+  </body>
+</html>
